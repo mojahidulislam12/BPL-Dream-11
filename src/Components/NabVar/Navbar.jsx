@@ -2,7 +2,7 @@ import React from "react";
 import Imag1 from "../../assets/dollar 1 (1).png";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm container mx-auto">
+    <div className="navbar bg-base-100 container mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

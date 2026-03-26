@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-
+      <Banner></Banner>
       <Suspense
         fallback={<span className="loading loading-spinner loading-xl"></span>}
       >

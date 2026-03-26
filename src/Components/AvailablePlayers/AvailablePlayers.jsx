@@ -6,7 +6,7 @@ import PlayerCard from "../PlayerCard/PlayerCard";
 const AvailablePlayers = ({ players }) => {
   //console.log(players);
   return (
-    <div className="grid md:grid-cols-3 sm:grid-cols-1">
+    <div className="grid  grid-cols-1 md:grid-cols-3 gap-5 border-white">
       {players.map((player) => (
         <PlayerCard player={player}></PlayerCard>
       ))}

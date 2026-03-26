@@ -13,12 +13,12 @@ const PlayerCard = ({ player }) => {
   } = player;
   console.log(player);
   return (
-    <div className="p-6">
-      <div className="card bg-base-100 shadow-sm w-106  h-132 rounded-xl">
+    <div className="">
+      <div className="card bg-base-100 shadow-sm h-132 rounded-xl">
         <figure className=" rounded-md">
           <div className="p-6  pt-6">
             <img
-              className="md:w-93.75  h-60 rounded-2xl"
+              className="w-110 h-60 rounded-2xl"
               src={playerImg}
               alt="Shoes"
             />
